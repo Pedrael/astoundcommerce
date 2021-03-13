@@ -1,0 +1,63 @@
+.upper {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "photo name"
+                          "photo info";
+    grid-template-rows: 35px auto;
+
+    .photo-wrap {
+        width: 400px;
+        max-width: 50%;
+        grid-area: photo;
+    }
+
+    .product-name {
+        grid-area: name;
+        font-family: 'Oswald';
+        text-transform: uppercase;
+        font-size: 24px;
+        color: $black;
+        letter-spacing: 2px;
+    }
+
+    .product-info {
+        grid-area: info;
+
+        .item-id {
+            font-size: 10px;
+            color: $black;
+            margin-bottom: 24px;
+            margin-top: 10px;
+            letter-spacing: 1px;
+        }
+
+        .price-wrap {
+            margin-bottom: 24px;
+        }
+
+        .price:nth-child(1) {
+            margin-right: 20px;
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .rate {
+            margin-right: 18px;
+        }
+
+        .star-wrap {
+            width: 18px;
+            margin: 1px;
+        }
+
+        .share-button {
+            font-size: 18px;
+            color: $blue;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+        }
+    }
+}

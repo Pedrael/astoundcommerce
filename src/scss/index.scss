@@ -1,6 +1,8 @@
 // segments
 // check src/framework/scss/global-scaler.scss if you are not fullhd
 @charset "UTF-8";
-@import "./../framework/scss/fonts/NeoSans.scss"; // fonts
-@import "./../framework/scss/main.scss"; // framework
-@import "./segments/test.scss";
+
+@import "./modifiers.scss";
+@import "./_colors.scss";
+@import "./segments/general.scss";
+@import "./segments/upper.scss";

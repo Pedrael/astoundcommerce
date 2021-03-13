@@ -12,10 +12,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1",
-    "lodash": "^4.17.20"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",

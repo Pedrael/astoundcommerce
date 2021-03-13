@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 18" width="17" height="18">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ababab } 
+	</style>
+	<g id="desktop">
+		<g id="desktop_layers">
+			<g id="product">
+				<g id="info">
+					<g id="rating">
+						<path id="Shape 21 copy 12" class="shp0" d="M8.86 13.37L3.48 17.32L5.69 11.07L0.56 7.02L6.9 7.02L8.65 0.73L10.82 7.02L17.17 7.02L12.04 11.07L14.33 17.28L8.86 13.37Z" />
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
