@@ -22,7 +22,7 @@
 
         <h2 class="product-name">For gamers by gamers TEE</h2>
 
-        <div class="product-info flex -column">
+        <form class="product-info flex -column">
           <p class="item-id">Item #: 701642853695</p>
           <div class="price-wrap flex">
             <p class="price underlined">$29.50</p>
@@ -37,6 +37,37 @@
               <div class="star-wrap"><img src="img/star-unrated.svg" alt=""></div>
             </div>
             <p class="share-button">Share it!</p>
+          </div>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+          <fieldset class="flex -ai-c size-fieldset">
+            <p class="sign">SIZE:</p>
+            <input class="r-hidden" type="radio" id="XS" name="size"><label for="XS" class="size">XS</label>
+            <input class="r-hidden" type="radio" id="S" name="size"><label for="S" class="size">S</label>
+            <input class="r-hidden" type="radio" id="L" name="size"><label for="L" class="size">L</label>
+          </fieldset>
+          <fieldset class="flex -ai-c color-fieldset">
+            <p class="sign">COLOR:</p>
+            <input class="c-hidden" type="radio" name="color" id="blue"><label for="blue" class="color" id="c-b"></label>
+            <input class="c-hidden" type="radio" name="color" id="green"><label for="green" class="color" id="c-g"></label>
+            <input class="c-hidden" type="radio" name="color" id="red"><label for="red" class="color" id="c-r"></label>
+            <input class="c-hidden" type="radio" name="color" id="violet"><label for="violet" class="color" id="c-v"></label>
+          </fieldset>
+          <button type="submit" class="submit-button">add to cart</button>
+        </form>
+      </div>
+
+      <div class="lower flex -column">
+        <h2 class="title">YOU MAY ALSO LIKE</h2>
+        <div class="cards-array flex -jc-sb">
+          <div class="card">
+            <div class="img-wrap">
+              <img src="img/product.png" alt="">
+              <div class="price-wrap with-discount">
+                <p class="price underlined">$29.99</p>
+                <p class="price pink">$19.99</p>
+              </div>
+            </div>
+            <p class="label">For gamers by gamers TEE</p>
           </div>
         </div>
       </div>

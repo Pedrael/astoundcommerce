@@ -4,10 +4,11 @@
     grid-template-areas: "photo name"
                           "photo info";
     grid-template-rows: 35px auto;
+    grid-template-columns: 400px auto;
+    column-gap: 60px;
 
     .photo-wrap {
         width: 400px;
-        max-width: 50%;
         grid-area: photo;
     }
 
@@ -17,7 +18,7 @@
         text-transform: uppercase;
         font-size: 24px;
         color: $black;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
     .product-info {
@@ -59,5 +60,76 @@
             font-weight: 700;
             letter-spacing: 1.5px;
         }
+
+        .description {
+            margin-top: 15px;
+            font-weight: 300;
+            color: $black;
+            font-size: 12px;
+        }
+
+        .sign {
+            font-size: 14px;
+            color: $black;
+            text-transform: uppercase;
+            font-weight: 700;
+            min-width: 70px;
+        }
+
+        .size-fieldset {
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .color-fieldset {
+            margin-bottom: 10px;
+        }
+
+        .r-hidden, .c-hidden {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .size, .color {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            min-width: 40px;
+            min-height: 40px;
+            background-color: #fff;
+            border: 1px solid #cbcbcb;
+            margin-right: 10px;
+        }
+
+        .color { border: none; }
+
+        #c-b { background-color: #77D8E7; }
+        #c-g { background-color: #96C795; }
+        #c-r { background-color: #CE92A1; }
+        #c-v { background-color: #AA93CF; }
+
+        .r-hidden:checked + .size, .c-hidden:checked + .color {
+            filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+        }
+
+        .submit-button {
+            border: none;
+            border-radius: 22px;
+            min-width: 220px;
+            width: 220px;
+            min-height: 44px;
+            background-color: #8AE6CF;
+            color: $black;
+            text-transform: uppercase;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            letter-spacing: 1px;
+        }
+
     }
 }

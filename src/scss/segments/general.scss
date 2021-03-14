@@ -13,6 +13,16 @@ body {
 	background-color: $white;
 }
 
+fieldset {
+	border: none;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
 .main-content {
 	width: 835px;
 	max-width: 100%;
@@ -24,5 +34,5 @@ body {
 }
 
 .pink {
-	color: #ce2c52;
+	color: #ce2c52 !important;
 }
