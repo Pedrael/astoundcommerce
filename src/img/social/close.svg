@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" width="56" height="56">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #2c87ce } 
+	</style>
+	<g id="desktop">
+		<g id="desktop_layers">
+			<g id="product">
+				<g id="info">
+					<g id="share">
+						<g id="toggle">
+							<path id="close" class="shp0" d="M7.65 1.04L56 46.89L48.37 54.96L0.01 9.11L7.65 1.04ZM54.94 7.63L9.13 56.02L1.07 48.38L46.88 -0.01L54.94 7.63Z" />
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

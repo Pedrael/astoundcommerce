@@ -59,6 +59,49 @@
             color: $blue;
             font-weight: 700;
             letter-spacing: 1.5px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .share-content {
+            position: absolute;
+            min-width: 287px;
+            min-height: 80px;
+            background-color: #fff;
+            filter: drop-shadow(0 0 3px rgba(0,0,0,0.75));
+            top: 35px;
+            left: -105px;
+            //invisivble
+            opacity: 0;
+            z-index: -1;
+            transition: 0.5s;
+
+            .img-wrap {
+                min-width: 39.9px;
+                min-height: 39.9px;
+                max-width: 39.9px;
+                max-height: 39.9px;
+                margin-right: 15px;
+            }
+
+            .js-close {
+                min-width: 30px;
+                min-height: 30px;
+                max-width: 30px;
+                max-height: 30px;
+            }
+
+            &:before {
+                background: inherit;
+                position: absolute;
+                display: block;
+                content: '';
+                width: 15px;
+                height: 15px;
+                transform: rotate(45deg);
+                top: -7.5px;
+                right: calc(50% - 7.5px);
+            }
         }
 
         .description {
