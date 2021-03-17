@@ -36,3 +36,17 @@ img {
 .pink {
 	color: #ce2c52 !important;
 }
+
+.tablet-only {
+	display: none;
+}
+
+@media only screen and (max-width: 900px) {
+	.main-content {
+		width: 640px;
+	}
+
+	.tablet-only {
+		display: flex;
+	}
+}

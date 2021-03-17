@@ -6,6 +6,7 @@
     grid-template-rows: 35px auto;
     grid-template-columns: 400px auto;
     column-gap: 60px;
+    margin-bottom: 65px;
 
     .photo-wrap {
         width: 400px;
@@ -109,6 +110,7 @@
             font-weight: 300;
             color: $black;
             font-size: 12px;
+            line-height: 16px;
         }
 
         .sign {
@@ -146,6 +148,11 @@
             margin-right: 10px;
         }
 
+        .size {
+            font-size: 14px;
+            color: $black;
+        }
+
         .color { border: none; }
 
         #c-b { background-color: #77D8E7; }
@@ -172,6 +179,7 @@
             justify-content: center;
             cursor: pointer;
             letter-spacing: 1px;
+            font-size: 14px;
         }
 
     }
