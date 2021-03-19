@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+    .lower {
+        overflow: hidden;
+        .cards-array {
+            width: auto;
+            flex-wrap: nowrap;
+        }
+    }
+}

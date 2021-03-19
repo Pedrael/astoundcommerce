@@ -1,19 +1,15 @@
 let wContent = document.querySelector('.share-content');
 let showButton = document.querySelector('.js-open');
 let closeButton = document.querySelector('.js-close');
-let {Carousel} = require("latte-carousel");
+import Swiper from 'swiper/bundle';
 
 document.addEventListener('DOMContentLoaded', () => {
-    const carousel = new Carousel('#carousel', {
-        count: 1,
-        move: 1,
-        touch: true,
-        mode: "free",
-        buttons: false,
-        dots: false,
-        rewind: true,
-        autoplay: 0,
-        animation: 500
+    const swiper = new Swiper(".swiper-container", {
+        direction: 'vertical',
+        slidesPerView: 1,
+        slideClass: "swiper-slide",
+        autoplay: true,
+        loop: true
     });
 });
 
