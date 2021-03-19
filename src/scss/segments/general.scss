@@ -6,11 +6,13 @@
     box-sizing: border-box;         /* Opera/IE 8+ */
     transition: all .2s;
 	font-family: 'Open Sans';
+	//border: 1px solid red;
 }
 
 body {
 	width: 100vw;
 	background-color: $white;
+	overflow-x: hidden;
 }
 
 fieldset {
@@ -38,7 +40,11 @@ img {
 }
 
 .tablet-only {
-	display: none;
+	display: none !important;
+}
+
+.phone-only {
+	display: none !important;
 }
 
 @media only screen and (max-width: 900px) {
@@ -47,6 +53,24 @@ img {
 	}
 
 	.tablet-only {
-		display: flex;
+		display: flex !important;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.main-content {
+		width: 402px;
+	}
+
+	.tablet-only {
+		display: none !important;
+	}
+
+	.phone-only {
+		display: flex !important;
+	}
+
+	.phone-hidden {
+		display: none;
 	}
 }

@@ -1,0 +1,62 @@
+@media only screen and (max-width: 600px) {
+    .upper {
+        grid-template-areas: "name" "photo" "info";
+        grid-template-rows: auto;
+        grid-template-columns: 402px;
+        row-gap: 0;
+
+        .photo-wrap {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .product-name {
+            max-width: 260px;
+            margin-left: 35px;
+            padding-bottom: 30px;
+        }
+
+        .product-info {
+            margin-left: 35px;
+            margin-right: 35px;
+
+            .item-id {
+                font-size: 12px;
+            }
+
+            .share-mobile {
+                width: 218px;
+                margin-bottom: 25px;
+                .img-wrap {
+                    display: block;
+                    min-width: 39.9px;
+                    min-height: 39.9px;
+                    max-width: 39.9px;
+                    max-height: 39.9px;
+                }
+            }
+
+            .color-fieldset, .size-fieldset {
+                flex-wrap: wrap;
+            }
+
+            .color-fieldset {
+                margin-bottom: 40px;
+            }
+
+            .size-fieldset {
+                margin-bottom: 25px;
+                margin-top: 25px;
+            }
+
+            .sign {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .submit-button {
+                align-self: center;
+            }
+        }
+    }
+}
