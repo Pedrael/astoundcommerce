@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 50" width="29" height="50">
+	<defs>
+		<image  width="29" height="50" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAyCAMAAACXtyDeAAAAAXNSR0IB2cksfwAAADxQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0C8mMAAAABR0Uk5TACYRKWZeElwGZSUuOzwkMCoFEyhTmrtaAAAAUElEQVR4nO3JSxJAMBAFwCFvJL4h7n9XUnbKvI2yMr1tEUPTWnMKULsDAO1IAjGR7AfPH+TIcvomZb52ed6XnXmv3t73jhtpLUbWJimy1zwA0asJc6t/i4oAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="mobile">
+		<g id="mobile_layers">
+			<g id="slider">
+				<g id="arrows">
+					<use id="left" href="#img1" x="0" y="0" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

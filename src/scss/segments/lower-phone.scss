@@ -2,8 +2,20 @@
     .lower {
         overflow: hidden;
         .cards-array {
-            width: auto;
-            flex-wrap: nowrap;
+            flex-direction: column;
+            align-items: center;
+
+            .card {
+
+                .img-wrap {
+                    width: 280px;
+                    height: 265px;
+                }
+
+                .price {
+                    font-size: 18px;
+                }
+            }
         }
     }
 }
